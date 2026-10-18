@@ -29,7 +29,7 @@ from sqlalchemy.orm import declarative_base, relationship
 
 # ══════════════════════════════════════════════════════════════ CONFIG
 class Config:
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("8798384472:AAGdqUVzCWmGq0SlG-wOOXWgYOSCNICpzC8")
     JWT_SECRET = os.environ.get("JWT_SECRET", "dev-secret-change-me")
     DATABASE_URL = os.environ.get("DATABASE_URL", "sqlite+aiosqlite:///./gall.db")
     WEBAPP_URL = os.environ.get("WEBAPP_URL", "http://localhost:8000")
